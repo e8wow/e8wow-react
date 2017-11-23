@@ -1,0 +1,4 @@
+config/*.js
+scripts/*.js
+src/registerServiceWorker.js
+src/assets/js/*.js
