@@ -167,6 +167,13 @@ module.exports = {
                                 },
                             },
                             {
+                                loader: 'px2rem-loader',
+                                options: {
+                                    remUnit: 75,
+                                    threeVersion: true
+                                }
+                            },
+                            {
                                 loader: require.resolve('postcss-loader'),
                                 options: {
                                     // Necessary for external CSS imports to work
